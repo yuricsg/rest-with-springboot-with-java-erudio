@@ -2,10 +2,10 @@ spring:
   application:
     name: rest-with-springboot-with-java-erudio
   datasource:
-    url: jdbc:mysql://localhost:5433/rest_with_springboot_with_java_erudio
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rest_with_springboot_with_java_erudio?useTimezone=true&serverTimezone=UTC&connectTimeout=30000&socketTimeout=30000
     username: root
     password: 76281y00
-    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
