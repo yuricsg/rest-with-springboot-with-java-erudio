@@ -14,3 +14,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
+  logging:
+    level:
+      root: WARN
+      #io.github.yuricsg: DEBUG
